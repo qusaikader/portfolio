@@ -37,6 +37,14 @@ body {
     font-size: 1.8rem;
 }
 
+.mainPage .des {
+    font-family: Raleway, sans-serif;
+    color: rgb(209, 203, 203);
+    font-weight: 600;
+    line-height: 1rem;
+    font-size: 1.2rem;
+}
+
 .mainPage .description {
     font-family: Raleway, sans-serif;
     color: rgb(209, 203, 203);
@@ -60,4 +68,20 @@ body {
     border: solid 4px #cb1829;
     border-color: #cb1829 transparent transparent transparent;
     border-radius: 50%;
+}
+
+.mainPage p a {
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    color: rgb(209, 203, 203);
+    font-size: medium;
+    border: 1px solid white;
+    border-radius: 2em;
+    padding: 1em 2em;
+}
+
+.mainPage p a:hover {
+    font-weight: 900;
+    border: 2px solid white;
 }
