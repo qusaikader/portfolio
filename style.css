@@ -18,3 +18,46 @@ body {
 .navbar-nav .nav-item .nav-link:hover {
     font-weight: 500;
 }
+
+.mainPage {
+    margin-top: 10rem;
+}
+
+.profile-img img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.mainPage p {
+    font-family: Raleway, sans-serif;
+    color: rgb(209, 203, 203);
+    font-weight: 600;
+    line-height: 1rem;
+    font-size: 1.8rem;
+}
+
+.mainPage .description {
+    font-family: Raleway, sans-serif;
+    color: rgb(209, 203, 203);
+    font-weight: 600;
+    line-height: 4.5rem;
+    font-size: 5rem;
+}
+
+.underlined {
+    position: relative;
+    margin-right: 1rem;
+}
+
+.underlined:after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    height: px;
+    width: 100%;
+    border: solid 4px #cb1829;
+    border-color: #cb1829 transparent transparent transparent;
+    border-radius: 50%;
+}
